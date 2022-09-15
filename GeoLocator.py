@@ -46,7 +46,7 @@ def plot_ips(pcap):
     return kml_packets
 
 def controller():
-    file = open('PCAP Files//whole.pcap', 'rb')
+    file = open('PCAP Files//whole.pcap', 'rb')   # I deleted my pcap file from the repo for security purpose
     pcap = dpkt.pcap.Reader(file)
     kml_header = '<?xml version="1.0" encoding="UTF-8"?> \n<kml xmlns="http://www.opengis.net/kml/2.2">\n<Document>\n'\
         '<Style id="transBluePoly">' \
