@@ -5,7 +5,7 @@ from phonenumbers import carrier
 from opencage.geocoder import OpenCageGeocode
 import folium
 
-key = 'f51b8ec506f14adf9dc2b7d550ba6750'
+key = 'Enter Your API Key From Opencage'
 
 number = '' # Enter Mobile Number
 target_number = phonenumbers.parse(number)
